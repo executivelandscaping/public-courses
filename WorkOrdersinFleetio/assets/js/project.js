@@ -9,8 +9,8 @@ lang:''
 Slide50317:{
 lb:'',
 id:50317,
-from:1,
-to:90,
+from:811,
+to:900,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -12163,7 +12163,7 @@ kCPDropReject:''
 }
 ,
 prjBgColor:'#ffffff',
-pkt:0,
+pkt:1,
 htmlBgColor:'#f5f4f1',
 shc:false,
 pN:'Work Orders in Fleetio.cpt'
@@ -12457,7 +12457,14 @@ resources:['dr/026413.svg','dr/031938.png','dr/050388.png']
 
 }
 ];
-cp.model.audioresources=[];
+cp.model.audioresources=[{
+slideID:0,
+ResourceList:{
+resources:['ar/KeyClick.mp3']
+}
+
+}
+];
 cp.model.videoresources=[];
 cp.model.videos=[
 ];
@@ -12466,6 +12473,7 @@ cp.model.slideVideos=[
 cp.model.tocVideos=[
 ];
 cp.model.audios=[
+'ar/KeyClick.mp3'
 ];
 
 cp.initVariables = function(){
