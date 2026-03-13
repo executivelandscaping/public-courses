@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  enterprise-portfolio-pursuit-framework:
+    build: .
+    container_name: enterprise-portfolio-pursuit-framework
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
